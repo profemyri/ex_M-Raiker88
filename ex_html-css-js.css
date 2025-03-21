@@ -1,13 +1,24 @@
 body {
-   ...........
+   background-color: beige;
+   color: #2c3e50;
+   font-size: Arial,sans-serif;
 }
 
 h1 {
-   ...........
+   font-size: 32px;
+   color: #0077b6;
+   text-align: center
+}
+h2 {
+   font-size: 24px;
+   color:#f4a261;
+   
 }
 
 form {
-   ...........
+   background-color: white;
+   border-color: #eaeaea, 1px;
+   bottom:#0077b6;
 }
 
 ............

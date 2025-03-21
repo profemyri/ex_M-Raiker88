@@ -20,17 +20,60 @@
         <label for="email">Email:</label>
         <input type="text" id="email">
         
-        <label for="direccion">direccion</label>
+        <label for="direccion">direccion:</label>
         <input type="text" id="direccion">
 
-        <label for="telefono">telefono</label>
+        <label for="telefono">telefono:</label>
         <input type="text" id="telefono">
 
-        <label for="email">Correo electrónico:</label>
-        <input type="text" id="email" >
-
-        <label for="hora">Hora aproximada de entrega:</label>
+        <label for="hora">Hora de entrega:</label>
         <input type="time" id="hora" >
+
+        <br>
+
+        <select id="pescado">
+            <option value="15">calamares (15€)</option>
+            <option value="20">Adobo (20€)</option>
+            <option value="10">Boquerone (10€)</option>
+        </select>
+
+        <br>
+
+        <label> Nº de raciones</label>
+        <select id="opciones">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+        </select>
+        <br>
+
+        <label>Acompañamiento:</label>
+        <input type="checkbox" class="patatas" value="5"> patatas (5€)
+        <input type="checkbox" class="ensaladilla" value="4"> ensaladilla (4€) 
+        <input type="checkbox" class="manzanilla" value="1.5">  manzanilla (1.5€)
+
+        <br>
+
+        <label>Metodo de pago:</label>
+        <select id="pago">
+            <option>Efectivo</option>
+            <option>Tarjeta</option>
+            <option>PayPal</option>
+        </select>
+
+        <br>
+
+        <textarea id="instrucciones" maxlength="150" placeholder="Instrucciones adicionales"></textarea>
+        <p>Caracteres escritos: <span id="contador">0</span></p>
+
+        <p><strong>Total: <span id="total">0€</span></strong></p>
+        <button type="submit" id="botonenvio">Enviar pedido</button>
+        
+        <footer>Iker Amores Borrego</footer>
 
     </form>
     <script src="ex_html-css-js.js"></script>
