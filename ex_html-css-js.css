@@ -16,9 +16,20 @@ h2 {
 }
 
 form {
+   text-align:left;
    background-color: white;
    border-color: #eaeaea, 1px;
    bottom:#0077b6;
-}
 
-............
+   .placeholder{
+      color:#f4a261;
+   }
+   margin: 15px;
+   padding: 10px;
+   border-radius: 10px;
+
+}
+.oscuro{
+   background-color: black;
+   color:white;
+}

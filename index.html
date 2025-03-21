@@ -11,26 +11,25 @@
     <h2>¡¡Pide aqui tu pescaito rico!!</h2>
 
     <form id="pescaitoform">
+        
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre">
-
+        <br>
         <label for="apellidos">Apellidos:</label>
         <input type="text" id="apellidos">
-        
+        <br>
         <label for="email">Email:</label>
         <input type="text" id="email">
-        
+        <br>
         <label for="direccion">direccion:</label>
         <input type="text" id="direccion">
-
+        <br>
         <label for="telefono">telefono:</label>
         <input type="text" id="telefono">
-
+        <br>
         <label for="hora">Hora de entrega:</label>
         <input type="time" id="hora" >
-
         <br>
-
         <select id="pescado">
             <option value="15">calamares (15€)</option>
             <option value="20">Adobo (20€)</option>
@@ -52,8 +51,11 @@
         <br>
 
         <label>Acompañamiento:</label>
+        <br>
         <input type="checkbox" class="patatas" value="5"> patatas (5€)
+        <br>
         <input type="checkbox" class="ensaladilla" value="4"> ensaladilla (4€) 
+        <br>
         <input type="checkbox" class="manzanilla" value="1.5">  manzanilla (1.5€)
 
         <br>
@@ -67,12 +69,12 @@
 
         <br>
 
-        <textarea id="instrucciones" maxlength="150" placeholder="Instrucciones adicionales"></textarea>
+        <textarea id="Instrucciones" maxlength="150" placeholder="Instrucciones adicionales"></textarea>
         <p>Caracteres escritos: <span id="contador">0</span></p>
 
         <p><strong>Total: <span id="total">0€</span></strong></p>
-        <button type="submit" id="botonenvio">Enviar pedido</button>
-        
+        <button type="submit" class="colorito" id="botonenvio">Enviar pedido</button>
+        <button id="oscuro">Modo oscuro</button>
         <footer>Iker Amores Borrego</footer>
 
     </form>
